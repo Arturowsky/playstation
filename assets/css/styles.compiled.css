@@ -1,0 +1,24 @@
+.frame {
+  overflow: hidden;
+  position: relative;
+}
+
+.frame-img {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.frame-img:hover {
+  transform: scale(1.2);
+}
+
+.frame-main:hover .frame-img {
+  transform: scale(1.2);
+}
+
+.place-center {
+  display: grid;
+  place-items: center;
+}
